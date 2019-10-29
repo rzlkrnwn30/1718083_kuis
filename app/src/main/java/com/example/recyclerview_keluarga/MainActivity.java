@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private void tambahData(){
         keluargaArrayList = new ArrayList<>();
         keluargaArrayList.add(new Keluarga("Bambang Sutejo", "Ayah", getDrawable(R.drawable.draw1)));
-        keluargaArrayList.add(new Keluarga("Pevita Pearce", "Ibu", getDrawable(R.drawable.draw2)));
+        keluargaArrayList.add(new Keluarga("Susan Risnawati", "Ibu", getDrawable(R.drawable.draw2)));
         keluargaArrayList.add(new Keluarga("Mochamad Rizal Kurniawan", "Anak", getDrawable(R.drawable.draw3)));
     }
 }
